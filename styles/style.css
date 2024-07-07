@@ -1,0 +1,347 @@
+
+/* font - update */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* font style */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+  
+
+
+/* shared style */
+.white{
+    color:#FFFFFF;
+}
+ .red{
+    color:#FF0000;
+ }
+ .black{
+    color:#070211;
+ }
+ .btn-paimary{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-top: 48px;
+    cursor: pointer;
+ }
+ .btn-secondary{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF0000;
+    border: none;
+    cursor: pointer;
+    margin-top: 48px;
+    padding:5px 10px;
+    color:#FFF8F3;
+    border-radius: 6px;
+ }
+/* header style */
+.contain{
+    max-width: 1320px;
+    height: 600px;
+    margin:50px auto;
+    background-image: url(../images/Banner\ Image.png);
+    background-color:#0b031b ,#070211;
+    background-position:top bottom,left right;
+   
+}
+.contain >.content{
+    font-size: 72px;
+    font-weight: bolder;
+    width:630px;
+    text-align: center;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+.contain > .title{
+    font-size: 32px;
+    width:630px;
+    text-align: center;
+    display: block;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    padding-top: 177px;
+    margin-bottom: 16px;
+}
+
+
+/* offer sytle */
+.offer{
+    width:800px;
+    height: 805px;
+    margin: 120px auto;
+}
+.offer >.offer-title{
+    font-size: 88px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.offer >.offer-detline{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.offer >.offer-des{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+/* welcome box -style */
+.welcome-box{
+    max-width: 1320px;
+    height: 600px;
+    margin:120px auto;
+    background-image: url(../images/Vectorrr.png);
+    background-color:#0b031b ,#090118;
+    background-repeat: no-repeat;
+    background-position:left bottom;
+
+}
+.welcome-box >.title{
+    width: 640px;
+    font-size: 64px;
+    font-weight: bolder;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+.welcome-box >.title-2{
+    width: 640px;
+    font-size: 64px;
+    font-weight: bolder;
+    padding-left: 126px;
+    
+}
+.welcome-box >.welcome-des{
+    width: 690px;
+    padding-left: 126px;
+}
+.welcome-box >button{
+    padding-left: 126px;
+}
+
+/* About style */
+.about{
+    max-width: 1320px;
+    height: 600px;
+    margin:120px auto;
+    background-image: linear-gradient(#f8e7da,#FFFFFF);
+}
+.about >.birth-of-place{
+    padding-top: 100px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.about >.birth-of-date,.birth-of-time{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-area{
+    text-align: center;
+}
+/* New Best Offer style */
+.new-offer{
+    max-width: 1320px;
+    height: 460px;
+    margin:120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.best-offer-1{
+    width:390px;
+    height:250px;
+
+}
+.best-offer-1,.best-offer-2>.title{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.best-offer-2{
+    width:270px;
+    height:170px;
+}
+.detline{
+    font-size: 48px;
+    font-weight: bold;
+}
+.best-offer-2>.detline{
+    padding-top: 50px;
+}
+.best-offer-1,.best-offer-2>.discription{
+    color:#070211;
+    font-size: 20px;
+  }
+.new-offer>.best-offer-img{
+    width: 455px;
+    height: 455px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+.new-offer>.best-offer-img img{
+    width: 100%;
+}
+/* holiday offer style */
+.holiday-offer{
+    width:1320px;
+    height:986px;
+    margin:200px auto;
+
+}
+.holiday-offer>.sub-title{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday-offer>.title{
+    font-size: 72px;
+    font-weight: bolder;
+    text-align: center;
+}
+.holiday-offer>.disc{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 50px;
+}
+.img-area{
+    width:1320px;
+    height:662px;
+    margin-top: 60px;
+    background-image: url(../images/Rectangle\ 2.png),url(../images/Group\ 44.png);
+    background-repeat: no-repeat;
+    background-position: bottom ,top right;
+}
+/* portfolio style */
+.portfolio{
+    width:1320px;
+    margin: 144px auto;
+}
+.portfolio>.disc{
+    font-size: 20px;
+    font-weight: 500;
+}
+.portfolio>.title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+.portfolio>.sub-title{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.img{
+    margin-top: 30px;
+}
+.img>img{
+ padding:5px;
+}
+/* subcribe style */
+.sebcribe{
+    width:1320px;
+    margin: 120px auto;
+    background-color: darksalmon;
+}
+.sebcribe>.icon{
+    padding-top: 80px;
+    text-align: center;
+
+}
+.sebcribe>.title{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+.sebcribe>.des{
+    width:880px;
+    margin: 0 auto;
+}
+.input{
+    width: 648px;
+    height: 72px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+input[type=text]{
+    border:none;
+    padding: 10px 30px;
+    border-radius: 20px 0 0 20px;
+}
+input[type=submit]{
+    border:none;
+    padding: 10px 30px;
+    background-color: #FF0000;
+    color:white;
+    border-radius: 0 20px 20px 0 ;
+
+}
+/* footer style */
+footer{
+    background-color: #000000;
+}
+.footer{
+    width:1320px;
+    margin: auto;
+}
+.text{
+    padding-top: 50px;
+}
+.text>.title{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.contain-1{
+    display: flex;
+    justify-content: space-between;
+}
+.text>.contract{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.contain-2{
+    margin-top: 30px;
+    padding:30px;
+    border:1px solid gray;
+    text-align: center;
+}
+.contain-3{
+    padding:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.contain-3>.f-title{
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+}
