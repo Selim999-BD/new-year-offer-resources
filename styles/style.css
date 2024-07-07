@@ -57,8 +57,8 @@
     height: 600px;
     margin:50px auto;
     background-image: url(../images/Banner\ Image.png);
-    background-color:#0b031b ,#070211;
-    background-position:top bottom,left right;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
    
 }
 .contain >.content{
@@ -118,33 +118,37 @@
     height: 600px;
     margin:120px auto;
     background-image: url(../images/Vectorrr.png);
-    background-color:#0b031b ,#090118;
+    background-color:rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
-    background-position:left bottom;
+    background-blend-mode: overlay;
+    display: flex;
 
 }
-.welcome-box >.title{
+.text-contain >.title{
     width: 640px;
     font-size: 64px;
     font-weight: bolder;
     padding-top: 126px;
     padding-left: 126px;
 }
-.welcome-box >.title-2{
+.text-contain >.title-2{
     width: 640px;
     font-size: 64px;
     font-weight: bolder;
     padding-left: 126px;
     
 }
-.welcome-box >.welcome-des{
+.text-contain >.welcome-des{
     width: 690px;
     padding-left: 126px;
 }
-.welcome-box >button{
-    padding-left: 126px;
+.text-contain >button{
+    margin-left: 126px;
 }
-
+.image-contain{
+    width:500px;
+    margin-top: 40px;
+}
 /* About style */
 .about{
     max-width: 1320px;
@@ -344,4 +348,8 @@ footer{
     color:white;
     font-size: 24px;
     font-weight: 600;
+}
+.contain-2>img{
+    margin-right: 20px;
+    cursor: pointer;
 }
